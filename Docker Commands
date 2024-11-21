@@ -1,0 +1,51 @@
+linuxadmin@docker-box:~$ history
+    1  clear
+    2  docker images
+    3  docker pull ubuntu
+    4  docker images
+    5  docker image inspect 35a88802559d
+    6  clear
+    7  docker images
+    8  docker pull ubuntu:18.04
+    9  docker images
+   10  docker image inspect f9a80a55f492
+   11  docker pull debian
+   12  docker images
+   13  docker image inspect debian:latest
+   14  docker pull alpine
+   15  docker images
+   16  docker image inspect 324bc02ae123
+   17  clear
+   18  docker images
+   19  docker run 2e5b8d3ef33e
+   20  docker ps
+   21  docker ps -a
+   22  docker run --name archith 2e5b8d3ef33e
+   23  docker ps
+   24  docker ps -a
+   25  history
+   26  clear
+   27  docker images
+   28  docker run --name uc22.04d 35a88802559d
+   29  docker ps
+   30  docker ps -a
+   31  clear
+   32  docker images
+   33  docker pull ubuntu/apache2
+   34  docker images
+   35  docker image inspect 90336b1487af
+   36  clear
+   37  docker images
+   38  docker run 90336b1487af
+   39  docker images
+   40  cler
+   41  clear
+   42  docker images
+   43  docker run -it 90336b1487af
+   44  docker ps
+   45  docker run -itd 90336b1487af
+   46  docker ps
+   47  docker attach 4464a7ecfc15
+   48  docker ps
+   49  docker ps -a
+   50  history
